@@ -1,0 +1,18 @@
+i img {
+    cursor: pointer;
+}
+
+.accordion-header p {
+    cursor: pointer;
+}
+
+.accordion-header p:hover {
+    color: #AD28EB;
+}
+
+.header_bg {
+    background: url('background-bg.svg');
+    width: 100%;
+    height: 320px;
+    position: absolute;
+}

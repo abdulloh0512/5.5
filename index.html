@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ accordion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="header_bg"></div>
+    <div
+      class="flex items-center justify-center h-screen bg-lightPink bg-image"
+    >
+      <div
+        class="flex flex-col w-[85%] rounded-xl bg-white py-4 shadow-2xl md:-translate-y-14 md:w-[570px] md:rounded-2xl"
+      >
+        <div class="flex items-center mt-5 mb-3 ml-7 md:ml-10">
+            <path
+              fill="#AD28EB"
+              d="M37.5 20.5a2.467 2.467 0 0 1-1.64 2.344l-9.913 3.604-3.603 9.911a2.5 2.5 0 0 1-4.688 0l-3.604-9.922-9.911-3.593a2.5 2.5 0 0 1 0-4.688l9.921-3.604 3.594-9.911a2.5 2.5 0 0 1 4.688 0l3.604 9.921 9.911 3.594A2.467 2.467 0 0 1 37.5 20.5Z"
+            />
+          </svg>
+          <h1 class="font-bold text-4xl md:text-5xl">FAQs</h1>
+        </div>
+        <div class="flex flex-col divide-y-2 divide-slate-400/10 px-7 md:px-10">
+          <div class="py-4 accordion-item active">
+            <div
+              class="accordion-header flex justify-between w-full items-center"
+            >
+              <p class="font-bold md:font-semibold md:tracking-wide">
+                What is Frontend Mentor, and how will it help me?
+              </p>
+
+              <i class="fa-plus">
+                <img src="./icon-plus.svg" alt="" />
+              </i>
+
+              <i class="fa-minus">
+                <img src="./icon-minus.svg" alt="" />
+              </i>
+            </div>
+
+            <div class="accordion-content">
+              <p class="text-grayishPurple text-[16px] py-4">
+                Frontend Mentor offers realistic coding challenges to help
+                developers improve their frontend coding skills with projects in
+                HTML, CSS, and JavaScript. It's suitable for all levels and
+                ideal for portfolio building.
+              </p>
+            </div>
+          </div>
+
+          <div class="py-4 accordion-item">
+            <div
+              class="accordion-header flex justify-between w-full items-center"
+            >
+              <p class="font-bold md:font-semibold tracking-wide">
+                Is Frontend Mentor free?
+              </p>
+
+              <i class="fa-plus">
+                <img src="./icon-plus.svg" alt="" />
+              </i>
+
+              <i class="fa-minus">
+                <img src="./icon-minus.svg" alt="" />
+              </i>
+            </div>
+            <div class="accordion-content">
+              <p class="text-grayishPurple text-[16px] py-4">
+                Yes, Frontend Mentor offers both free and premium coding
+                challenges, with the free option providing access to a range of
+                projects suitable for all skill levels.
+              </p>
+            </div>
+          </div>
+          <div class="py-4 accordion-item">
+            <div
+              class="accordion-header flex justify-between items-center w-full"
+            >
+              <p class="font-bold md:font-semibold tracking-wide">
+                Can I use Frontend Mentor projects in my portfolio?
+              </p>
+
+              <i class="fa-plus">
+                <img src="./icon-plus.svg" alt="" />
+              </i>
+
+              <i class="fa-minus">
+                <img src="./icon-minus.svg" alt="" />
+              </i>
+            </div>
+
+            <div class="accordion-content">
+              <p class="text-grayishPurple text-[16px] py-4">
+                Yes, you can use projects completed on Frontend Mentor in your
+                portfolio. It's an excellent way to showcase your skills to
+                potential employers!
+              </p>
+            </div>
+          </div>
+
+          <div class="py-4 accordion-item">
+            <div
+              class="accordion-header flex justify-between items-center w-full"
+            >
+              <p class="font-bold md:font-semibold tracking-wide">
+                How can I get help if I'm stuck on a challenge?
+              </p>
+              <i class="fa-plus">
+                <img src="./icon-plus.svg" alt="" />
+              </i>
+
+              <i class="fa-minus">
+                <img src="./icon-minus.svg" alt="" />
+              </i>
+            </div>
+
+            <div class="accordion-content">
+              <p class="text-grayishPurple text-[16px] py-4">
+                The best place to get help is inside Frontend Mentor's Discord
+                community. There's a help channel where you can ask questions
+                and seek support from other community members.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
